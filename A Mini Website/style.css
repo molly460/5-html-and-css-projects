@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: #FBE7C6;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+   align-items: center;
+   
+}
+
+.header{
+    background-image: url(https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+    background-repeat: no-repeat center fixed;
+    background-size: cover;
+  height: 700px;
+  width: 100%;
+  filter: brightness(90%);
+  position: sticky;
+ 
+ 
+}
+.topnav{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+a{
+    color: grey;
+   text-decoration: none;
+   text-align: center;
+   font-size: 17px;
+   padding: 10px;
+   font-family: poppins sans-serif;
+  
+  
+}
+  a:hover{
+      color: white;
+    border-bottom: 2px solid;
+  } 
+  .heading{
+      display: flex;
+      justify-content: center;
+      margin-top: 170px;
+  }
+
+h3{
+    color: #fafafb;
+    font-size: 15px;
+    font-family:poppins;
+}
+
+.headings{
+    display: flex;
+    justify-content: center;
+    
+}
+
+h1{
+    color: #fafafb;
+    font-size: 80px;
+   margin-top: 10px;
+  
+}
+
+.para{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+p{ 
+    color: #f2f2f2;
+    font-size: 18px;
+    margin-bottom: 10px;
+   letter-spacing: 0.1rem;
+   font-family:  poppins sans-serif;
+   
+
+  
+}
+.btn{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: 700px;
+    letter-spacing: .05rem;
+    background: #ff5200;
+    border: #ff5200;
+    color: #fafafb;
+margin-top: 12px;
+font-family:  poppins sans-serif;
+}
+
+
+.head1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 110px;
+}
+
+.images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 5px;
+}
+img{
+    width: 300px;
+    height: 200px;
+    margin: 5px;
+}
+
+.head2{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+h2{
+   content: "";
+    color: #ff5200;
+    font-size: 50px;
+    border-bottom: 2px solid #ff5200;
+   
+} 

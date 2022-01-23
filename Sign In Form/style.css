@@ -1,0 +1,105 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&display=swap');
+
+
+body{
+    background-color:#36096d;
+    background-image: linear-gradient(315deg, #36096d 0%, #37d5d6 74%); 
+   box-sizing: border-box;
+  
+}
+/* styling the container */
+.container{
+ 
+   background-color: #141b3e;
+  height: 600px;
+  width: 700px;
+  margin: auto;
+   padding: 20px;
+   border-radius: 8px;
+   box-shadow:2px 2px 3px  rgba(0, 0, 0, 0.2);
+ 
+}
+/* styling form*/
+
+
+
+/* heading*/
+h1{
+    color: #fafafb;
+    text-align: center;
+    margin: 30px;
+    font-family:inherit;
+}
+/* styling inputs*/
+input{
+    
+    padding: 10px;
+    background-color: #090b30;
+    border:  transparent 1px solid;
+   width: 90%;
+    padding: 12px 20px;
+    border-radius: 4px;
+   margin: 8px;
+    color: #747c92;
+    
+}
+label{
+    color: #747c92;
+    margin-left: 10px;
+}
+
+:placeholder-shown{
+    color: #747c92;
+    font-family: poppins sans-serif;
+    font-size: 15px;
+    
+}
+/*buttons*/
+
+.btns{
+    display: flex;
+    justify-content: center;
+}
+
+.buttons{
+    width: 90%;
+    color: #fafafb;
+    font-family: inherit;
+    background-color: hotpink;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    height: 50px;
+    font-size: 15px;
+}
+
+/* link*/
+a{
+   
+   text-decoration: none;
+   color: hotpink;
+   margin-left: 58%;
+  
+}
+/*button*/
+
+.btn1{
+    width: 120px;
+    color: hotpink;
+    padding: 5px;
+    border: none;
+    background-color:#282f54;
+    margin: 3px;
+    border-radius: 4px;
+}
+
+.btn2{
+    width: 120px;
+    color: #fafafb;
+    padding: 5px;
+    border: none;
+    background-color:#282f54;
+    margin: 3px;
+    border-radius: 4px;
+}
